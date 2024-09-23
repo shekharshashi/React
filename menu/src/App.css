@@ -1,0 +1,53 @@
+/* General body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.menu-container {
+  width: 300px;
+  margin: auto;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+/* Root UL for the tree */
+.tree-root {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+/* Tree node styling */
+.tree-node {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #0097e6; /* Node text color */
+  margin: 5px 0;
+}
+
+/* Caret icon */
+.caret {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+/* Indented child nodes */
+.child-nodes {
+  padding-left: 20px;
+  list-style-type: none;
+  margin: 0;
+}
+
+/* Node hover effect */
+.node-label {
+  text-decoration: none;
+  color: #0097e6;
+}
+
+.node-label:hover {
+  text-decoration: underline;
+}
